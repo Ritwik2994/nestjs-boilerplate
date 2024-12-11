@@ -1,0 +1,47 @@
+export enum NotificationType {
+  MESSAGE = 'message',
+  INVOICE = 'invoice',
+  PROJECT_UPDATE = 'project_update',
+  TASK_ASSIGNED = 'task_assigned',
+  PAYMENT_RECEIVED = 'payment_received',
+  SYSTEM_ALERT = 'system_alert',
+  NEW_BID = 'new_bid',
+  BID_ACCEPTED = 'bid_accepted',
+  REVIEW_REQUESTED = 'review_requested',
+  ACCOUNT_UPDATE = 'account_update',
+  COA_UPDATE = 'coa_update',
+  JOB_CREATED = 'job_created',
+  BID_REJECTED = 'bid_rejected',
+  BID_AMOUNT_CHANGED = 'bid_amount_changed',
+  NEW_CHAT_MESSAGE = 'new_chat_message',
+  NEW_FORUM_MESSAGE = 'new_forum_message',
+  ACCOUNT_SUSPENDED = 'account_suspended',
+  PROJECT_COMPLETED = 'project_completed',
+  DEADLINE_APPROACHING = 'deadline_approaching',
+  DEADLINE_CHANGED = 'deadline_changed',
+  PAYMENT_FAILED = 'payment_failed',
+  SUSPEND_USER = 'suspend_user',
+  SUBMISSION_ACCEPTED = 'submission_accepted',
+  SUBMISSION_REJECTED = 'submission_rejected',
+  JOB_APPROVED = 'job_approved',
+  JOB_DECLINED = 'job_declined',
+  JOB_HOLD = 'job_hold',
+  INVITE_USER = 'invite_user',
+}
+
+export enum NotificationActionType {
+  NAVIGATE = 'navigate',
+  MODAL = 'modal',
+  EXTERNAL_LINK = 'external_link',
+  DOWNLOAD = 'download',
+  API_CALL = 'api_call',
+  DEFAULT = 'default',
+}
+
+export enum NotificationLevel {
+  SUCCESS = 1,
+  ERROR = 2,
+  ALERT = 3,
+  INFO = 4,
+  WARNING = 5,
+}

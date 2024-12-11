@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2021",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": ".",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": true,
+    "esModuleInterop": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmitOnError": true,
+    "resolveJsonModule": false,
+    "noFallthroughCasesInSwitch": true,
+    "pretty": true,
+    "strict": false,
+    "paths": {
+      "@app/*": ["src/*"],
+      "@helper/*": ["src/helper/*"],
+      "@middleware/*": ["src/middleware/*"],
+      "@shared/*": ["src/shared/*"],
+      "@modules/*": ["src/modules/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.spec.ts", "prettier.config.ts"],
+  "exclude": ["node_modules", "dist", "test/**/*.ts"]
+}
+
